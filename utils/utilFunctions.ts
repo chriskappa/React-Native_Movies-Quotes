@@ -1,6 +1,6 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import uuid from 'react-native-uuid';;
-import { View, StyleSheet, ToastAndroid, Button, StatusBar } from 'react-native';
+import uuid from 'react-native-uuid';
+import { GestureResponderEvent, ToastAndroid } from 'react-native';
 
 type CustomDebounceProps = ((event: GestureResponderEvent | number) => void)
 
@@ -23,7 +23,6 @@ export const customDebounce = (fn: Function, timer: number): CustomDebounceProps
 };
 
 export const getRandomID = (): string | number[] => uuid.v4();
-
 
 export const SaveToLocalStorage = (key: string, value: string) => {
     try {
