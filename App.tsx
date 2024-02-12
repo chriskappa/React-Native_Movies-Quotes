@@ -6,18 +6,15 @@
  */
 
 import React from 'react';
-import { Text, View } from 'react-native';
-
-
+import Styled from './Design-System/Styled';
+import QuoteContainer from './Components/QuoteContainer';
 function App(): React.JSX.Element {
 
   return (
-    <View>
-      <Text>Hello</Text>
-    </View>
-
+    <Styled.SafeAreaView className='bg-gray-300 h-screen flex items-center py-2'>
+      <QuoteContainer />
+    </Styled.SafeAreaView>
   );
 }
 
 export default App;
-
