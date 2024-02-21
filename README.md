@@ -1,7 +1,3 @@
-# Project Plan for "Favourite Movie Quote List" Application
-
-After receiving the project instructions, I did plan what  libraries and APIs will be optimal for the development of Movie Quote Application. My primary focus was on ensuring application efficiency and optimization, alongside maintaining clean code practices and an intuitive UI design. To uphold the principles of efficient coding, I followed the DRY (Don't Repeat Yourself) coding principle, ensuring that the codebase and components were modular. For this application I have used real APIs for the seamless fetching and posting of movie quotes to the database.
-
 # Execution Strategy
 
 ### Enhancing Efficiency and Optimization
